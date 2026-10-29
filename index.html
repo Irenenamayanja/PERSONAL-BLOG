@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Personal Blog</h1>
+    <p>Welcome to my world!</p>
+    <button id="themeButton">Switch Theme</button>
+</header>
+
+<main>
+    <h2>My Blog Sessions</h2>
+
+    <div class="blog-container">
+
+        <section class="blog-card">
+            <h3>Session 1: About Me</h3>
+            <p>I am a student interested in technology.</p>
+            <button onclick="showInfo('info1')">View Information</button>
+            <p id="info1" hidden>
+                I enjoy learning programming and solving problems.
+            </p>
+        </section>
+
+        <section class="blog-card">
+            <h3>Session 2: My Skills</h3>
+            <p>I am developing technical and communication skills.</p>
+            <button onclick="showInfo('info2')">View Information</button>
+            <p id="info2" hidden>
+                I am learning HTML, CSS and programming.
+            </p>
+        </section>
+
+        <section class="blog-card">
+            <h3>Session 3: My Goals</h3>
+            <p>I want to become successful in technology.</p>
+            <button onclick="showInfo('info3')">View Information</button>
+            <p id="info3" hidden>
+                I aim to build useful software applications.
+            </p>
+        </section>
+
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2026 My Personal Blog</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
